@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+}
+
+h1{
+    color: #909;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+hr{
+    height: 1px;
+    background-color:#909;
+}
+
+label{
+    display: inline-block;
+    width: 75px;
+}
+
+img{
+    float: left;
+}
+
+fieldset{
+    border: solid #FCC;
+}
+
+input{
+    border: none;
+    background-color: #FCC;
+}
+
+textarea{
+    border: none;
+    background-color: #FCC;
+}

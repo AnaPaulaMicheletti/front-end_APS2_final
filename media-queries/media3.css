@@ -1,0 +1,29 @@
+body{
+    width: 90%;
+    margin: auto;
+    border: solid thin red;
+}
+
+.soPequeno{
+    display: block;
+}
+
+.soMedio, .soGrande{
+    display: none;
+}
+
+article{
+    width: 90%;
+    float: none;
+    border: solid thin blue;
+    margin: auto;
+    text-align: justify;
+}
+
+article img{
+    max-width: 100%;
+}
+
+article:nth-child(3) img{
+    margin-bottom: none;
+}

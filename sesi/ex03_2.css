@@ -1,0 +1,43 @@
+body{
+    background-color: white;
+}
+
+h2{
+    color: black;
+    background-color: rgb(188, 232, 243);
+    padding: 3px;
+}
+
+hr{
+    border: none;
+    background-color: rgb(106, 179, 197);
+    height: 5px;
+}
+
+.botao{
+    color: rgb(138, 165, 184);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.botao:hover{
+    color: orange;
+}
+
+.foto{
+    width: 200px;
+    transition: 0.3s;
+    border: 3px solid transparent;
+}
+
+.foto:hover{
+    transform: scale(1.05);
+    filter: brightness(90%);
+    border: 5px solid orange;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(138, 165, 184);
+}

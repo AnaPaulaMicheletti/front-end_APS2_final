@@ -1,0 +1,44 @@
+body{
+    width: 700px;
+    margin: auto;
+    text-align: justify;
+}
+
+header{
+    width: 270px;
+    background-color: #e5c5b0;
+    padding: 5px 15px 20px;
+    border-radius: 0 25px 0 25px;
+    float: right;
+    margin: 0 0 10px 30px;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #bd4e15;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid thin #bd4e15;
+}
+
+section{
+    width: 330px;
+    float: left;
+}
+
+section:nth-child(2){
+    margin-left: 40px;
+}
+
+section h1{
+    background-color: #bd4e15;
+    color: #fff;
+    padding: 5px;
+}
+
+img{
+    padding: 10px;
+    float: left;
+}

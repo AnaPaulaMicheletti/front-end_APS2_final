@@ -1,0 +1,39 @@
+body {
+    background-color: #f1bcd2;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #ad1f3e;
+    margin: auto;
+}
+h2 {
+    color: #ff4646;
+    border-bottom: 2px solid #ff4646;
+}
+
+a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: bold;
+    color: #8b1515;
+}
+
+select {
+    width: 30%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #9b1313;
+    border-radius: 4px;
+    background-color: #202020;
+    color: #fff;
+}
+
+.estilo{
+    text-decoration: none;
+}

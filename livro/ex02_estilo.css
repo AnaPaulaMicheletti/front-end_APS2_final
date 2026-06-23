@@ -1,0 +1,27 @@
+body{
+    background-color: lightyellow;
+}
+
+h1{
+    color: #764e36;
+    border-top: solid #764e36;
+    border-bottom: solid #764e36;
+}
+
+h2{
+    color: white;
+    background-color: #764e36;
+    padding: 2px;
+}
+
+img{
+    border: solid #764e36;
+    padding: 5px;
+}
+
+/*hover para deixar colorido quando por o mouse por cima, so escolher a cor laranja*/
+
+a{
+    text-decoration: none;
+    color: #764e36;
+}

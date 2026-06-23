@@ -1,0 +1,22 @@
+body, table{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, th, tr, td{
+    border: solid thin #036;
+    border-collapse: collapse;
+}
+
+thead, tfoot{
+    background-color: #036;
+    color: #fff;
+    font-size: large;
+    text-transform: uppercase; /*uppercase - deixa tudo maiusculo */
+}
+
+tfoot tr td{
+    padding: 5px;
+}

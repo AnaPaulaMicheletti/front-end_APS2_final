@@ -1,0 +1,35 @@
+body{
+    width: 90%;
+    max-width: 1800px;
+    margin: auto;
+    border: solid thin red;
+}
+
+.soGrande{
+    display: block;
+}
+
+.soMedio, .soPequeno{
+    display: none;
+}
+
+article{
+    width: 30%;
+    float: left;
+    border: solid thin blue;
+    margin: 1.5%;
+    text-align: justify;
+}
+
+article img{
+    max-width: 100%;
+}
+
+article:nth-child(3) img{
+    margin-bottom: 21.5%;
+}
+
+article:nth-child(3) img{
+    width: 30%;
+    float: left;
+}

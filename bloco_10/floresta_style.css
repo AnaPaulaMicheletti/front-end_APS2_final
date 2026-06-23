@@ -1,0 +1,27 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    width: 220px;
+    float: left;
+}
+
+main{
+    width: 500px;
+    float: left;
+}
+
+aside{
+    width: 220px;
+    float: right;
+}
+
+footer{
+    clear: both;
+}

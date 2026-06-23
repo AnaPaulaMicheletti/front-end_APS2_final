@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+}
+
+section{
+    border: solid thin rgb(211, 211, 124);
+    padding: 25px;
+}
+
+figure{
+    width: 450px;
+    height: 350px;
+    margin: 0;
+    text-align: center;
+    /* border: solid thin red; */
+    position: relative;
+    top: -75px; /*funciona quando tem position */
+    right: -150px; /*funciona quando tem position */
+    background-color: rgb(112, 233, 101);
+    line-height: 350px;
+}
+
+figure img{
+    vertical-align: middle;
+}
