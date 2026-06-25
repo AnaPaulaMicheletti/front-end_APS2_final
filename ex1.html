@@ -3,82 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS - Estilos Iniciais</title>
+
+    <!--estilo incorporado-->
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        p{
+            color: #990099;
+        }
+    </style>
+
+    <!--estilo externo-->
+    <link rel="stylesheet" href="estilo.css">
+
 </head>
 <body>
-    <a href="index.html">Voltar</a>
-    <h2>Tabelas</h2>
+    <a href="/javascript/index.html">Voltar</a>
+    <h1>CSS - Estilos Iniciais</h1>
 
-    <table border="1">
-        <tr>
-            <th>Livro</th> <!--titulo-->
-            <th>Quantidade</th>
-        </tr>
+    <!--estilo inline-->
+    <p style="color: red; font-style: italic;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel accusamus soluta? Eos, rem quaerat voluptatibus molestias soluta, incidunt, earum ratione nulla recusandae quam voluptates maxime mollitia modi dolores odit.</p>
 
-        <tr>
-            <td>Excel 2021</td> <!--valor-->
-            <td>200</td>
-        </tr>
+    <p style="font-variant: small-caps;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel accusamus soluta? Eos, rem quaerat voluptatibus molestias soluta, incidunt, earum ratione nulla recusandae quam voluptates maxime mollitia modi dolores odit.</p>
 
-        <tr>
-            <td>HTML5/CSS3</td>
-            <td>180</td>
-        </tr>
-    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel accusamus soluta? Eos, rem quaerat voluptatibus molestias soluta, incidunt, earum ratione nulla recusandae quam voluptates maxime mollitia modi dolores odit.</p>
 
-    <h2>Tabela em linha</h2>
-    <table border="1">
-        <caption>Editora Senai</caption> <!--Titulo da tabela-->
-        <tr>
-            <th>Livro</th>
-            <td>Exel 2021</td>
-            <td>HTML5 / CSS3</td>
-        </tr>
-
-        <tr>
-            <th>Quantidade</th>
-            <td>200</td>
-            <td>180</td>
-        </tr>
-    </table>
-
-    <h2>Colspan</h2> <!--para espaço sobrando no titulo / para coluna-->
-        <table border="1">
-            <tr>
-                <th colspan="2">Célula expandida em varias colunas</th>
-            </tr>
-
-            <tr>
-                <td>Exemplo de colspan</td>
-                <td>50</td>
-            </tr>
-
-            <tr>
-                <td>Março</td>
-                <td>10</td>
-            </tr>
-        </table>
-
-    <h2>Rowspan</h2> <!--para espaço sobrando no meio da tabela / para linha-->
-        <table border="1">
-            <tr>
-                <th>Mês</th>
-                <th>Valores</th>
-                <th>Exemplo de Rowspan</th>
-            </tr>
-
-            <tr>
-                <td>Janeiro</td>
-                <td>30</td>
-                <td rowspan="2">Celula expandida em varias linhas</td>
-            </tr>
-
-            <tr>
-                <td>Fevereiro</td>
-                <td>15</td>
-            </tr>
-
-        </table>
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel accusamus soluta? Eos, rem quaerat voluptatibus molestias soluta, incidunt, earum ratione nulla recusandae quam voluptates maxime mollitia modi dolores odit.</p>
 </body>
 </html>
